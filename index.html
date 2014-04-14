@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/parser.js"></script>
+  </head>
+
+  <body>
+    <div id="crentassos" class="feedcontainer"></div>
+
+    <script type="text/javascript">
+      $(function(){
+        // running custom RSS functions
+        parseRSS('http://ask.fm/feed/profile/Crentassos.rss', '#crentassos');
+      });
+    </script>
+  </body>
+</html>
